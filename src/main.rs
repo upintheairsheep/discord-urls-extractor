@@ -15,7 +15,7 @@ mod cli;
 
 #[derive(Debug)]
 struct S {
-    data: String, // i actually don't remember why I had to do it this way
+    data: String, // i actually don't remember why I had to do it this way, start build action
 }
 
 #[derive(Debug)]
@@ -467,3 +467,4 @@ fn main() {
     }
     write_data(ignores, urls);
 }
+
